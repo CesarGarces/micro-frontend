@@ -70,7 +70,7 @@ Claridad y limpieza del historial: Destacar cómo este enfoque no solo resuelve 
 - Código práctico: Mejora un fragmento de código front-end específico y explica tus
 decisiones de refactorización. Puedes elegir un fragmento de código al azar de internet o
 algún proyecto.
-
+Antes
 ```
 import React, { useState } from 'react';
 
@@ -108,6 +108,7 @@ function ItemList() {
 
 export default ItemList;
 ```
+Refactor
 ```
 import React, { useState } from 'react';
 
