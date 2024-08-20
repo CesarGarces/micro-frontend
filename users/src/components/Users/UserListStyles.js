@@ -38,6 +38,11 @@ export const UserName = styled.span`
 
 export const UserEmail = styled.span`
   color: #555;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 `;
 
 export const NoData = styled.span`
