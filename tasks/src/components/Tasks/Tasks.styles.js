@@ -66,6 +66,9 @@ export const ContainerAddTask = styled.div`
   align-items: center;
   gap: 10px;
   padding: 10px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 

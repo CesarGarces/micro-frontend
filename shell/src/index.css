@@ -3,6 +3,10 @@
   flex-direction: row;
   gap: 20px;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .micro-frontend-box {
