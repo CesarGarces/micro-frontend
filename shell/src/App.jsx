@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const Report = lazy(() => import("reports/Report"));
-const User = lazy(() => import("users/User"));
+const UserList = lazy(() => import("users/UserList"));
 const TasksPage = lazy(() => import("tasks/TasksPage"));
 
 const App = () => (
@@ -20,7 +20,7 @@ const App = () => (
           <TasksPage />
         </div>
         <div className="micro-frontend-box">
-          <User />
+          <UserList />
         </div>
       </Suspense>
     </main>
