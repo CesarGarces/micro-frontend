@@ -358,7 +358,7 @@ R. he creado un web component CustomButton con opciones de personalización esta
 - Requerimiento: Implementa la gestión de estado utilizando Redux (para React) o NgRx
 (para Angular) en una pequeña aplicación de lista de tareas. Debe incluir acciones, reducers
 y un componente conectado que muestre la lista de tareas.
-R. Solución en el proyecto tasks y users
+R. Solución en el proyecto tasks
 
 
 13. Integración con una API REST (5 puntos):
