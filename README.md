@@ -195,7 +195,7 @@ Capa de Presentación (UI)
 Capa de Aplicación (State Management)
 Capa de Dominio (Reglas de Negocio)
 Capa de Infraestructura (APIs, Servicios)
-
+```
 src/
 │
 ├── components/
@@ -224,7 +224,7 @@ src/
 └── utils/             # Utilidades generales y funciones de ayuda
     ├── formatDate.ts
     └── validateEmail.ts
-
+```
 
 8. Estimación de Requerimientos (5 puntos):
 - Escenario de proyecto: Estima el tiempo necesario para implementar una serie de
@@ -408,17 +408,17 @@ de los mismos y realizar la ejecución de los mismos en un orden lógico que per
 único proyecto donde se puedan evidenciar todos ellos.
 
 ## Como correr los proyectos
-cd tasks
-npm install
-npm start
-cd users
-npm install
-npm start
-cd reports
-npm install
-npm start
+`cd tasks`
+`npm install`
+`npm start`
+`cd users`
+`npm install`
+`npm start`
+`cd reports`
+`npm install`
+`npm start`
 
 ## para microfrontend container
-cd shell
-npm install
-npm start
+`cd shell`
+`npm install`
+`npm start`
