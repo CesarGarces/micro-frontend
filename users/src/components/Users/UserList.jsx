@@ -14,7 +14,7 @@ import {
 } from "./UserListStyles";
 import DOMPurify from 'dompurify';
 
-const UserList = () => {
+const UsersList = () => {
   const dispatch = useDispatch();
   const { users, status, error } = useSelector(state => state.user);
 
@@ -58,4 +58,4 @@ const UserList = () => {
   );
 };
 
-export default UserList;
+export default UsersList;

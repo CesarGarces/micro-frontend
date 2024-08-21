@@ -1,16 +1,16 @@
 import React from 'react'
-import UserList from '../components/Users/UserList'
+import UsersList from '../components/Users/UserList'
 import store from "../store/store";
 import { Provider } from "react-redux";
 
-const User = () => {
+const UserListPage = () => {
   return (
     <div>
       <Provider store={store}>
-        <UserList />
+        <UsersList />
       </Provider>
     </div>
   );
-}
+};
 
-export default User
+export default UserListPage;
