@@ -13,7 +13,7 @@ const App = () => (
     </header>
     <main className="main-container">
       <div className="micro-frontend-box">
-        <Suspense fallback={<div>Argando Report</div>}>
+        <Suspense fallback={<div>Cargando Report</div>}>
           <Report />
         </Suspense>
       </div>
