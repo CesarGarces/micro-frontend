@@ -12,17 +12,21 @@ const App = () => (
       <h1>Micro Frontend Shell</h1>
     </header>
     <main className="main-container">
-      <Suspense fallback={<div>Loading...</div>}>
-        <div className="micro-frontend-box">
+      <div className="micro-frontend-box">
+        <Suspense fallback={<div>Argando Report</div>}>
           <Report />
-        </div>
-        <div className="micro-frontend-box">
+        </Suspense>
+      </div>
+      <div className="micro-frontend-box">
+        <Suspense fallback={<div>Cargando Tareas</div>}>
           <TasksPage />
-        </div>
-        <div className="micro-frontend-box">
+        </Suspense>
+      </div>
+      <div className="micro-frontend-box">
+        <Suspense fallback={<div>Cargando Usuarios</div>}>
           <UserList />
-        </div>
-      </Suspense>
+        </Suspense>
+      </div>
     </main>
   </div>
 );
